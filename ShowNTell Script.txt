@@ -1,0 +1,29 @@
+1.who
+2.Whoami
+3.last
+4.sudo su -
+5.echo $PATH
+6.export  PATH="$PATH:/home/ubuntu/devOps"
+7.unset  $devOps01
+8.vi loremipsum.txt
+9.Select option “E” to edit the file or anyone above depend on requirement.
+
+Vi Editor : 
+-----------
+10.
+   i--insert mode ---adding content before cursor 
+   a --- adding content  before pointer  
+   0---for adding new line after pointer 
+   
+11. j -down, k-up, h-left, l- right  OR  up+down+right+left arrow 
+
+12.Yy–copy lines     
+   P—paste the lines 
+   Dd—delete the lines 
+   U–undo delete 
+   Dw–delete the word 
+13.grep Lorem loremipsum.txt
+   grep  -i Lorem loremipsum.txt
+   Grep-wv Lorem loremipsum.txt
+  
+14. cat loremipsum.txt | grep Lorem
